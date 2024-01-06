@@ -2,7 +2,7 @@ package com.example.repositorypatternsample.ui.sampleui.presenter
 
 import android.util.Log
 import com.example.repositorypatternsample.model.samplemodel.repository.ISampleRepository
-import com.example.repositorypatternsample.Injection.ModelObject
+import com.example.repositorypatternsample.injection.ModelObject
 import com.example.repositorypatternsample.model.samplemodel.SampleModel
 import com.example.repositorypatternsample.ui.sampleui.SampleContract
 

@@ -1,4 +1,4 @@
-package com.example.repositorypatternsample.Injection
+package com.example.repositorypatternsample.injection
 
 import com.example.repositorypatternsample.model.samplemodel.datasource.SampleDataSource2
 import com.example.repositorypatternsample.model.samplemodel.repository.SampleRepository
