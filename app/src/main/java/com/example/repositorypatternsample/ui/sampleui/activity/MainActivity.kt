@@ -1,10 +1,13 @@
-package com.example.repositorypatternsample
+package com.example.repositorypatternsample.ui.sampleui.activity
 
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.repositorypatternsample.R
+import com.example.repositorypatternsample.ui.sampleui.presenter.SamplePresenter
+import com.example.repositorypatternsample.ui.sampleui.SampleContract
 
 class MainActivity : AppCompatActivity(), SampleContract.View {
     private lateinit var sampleNum: TextView

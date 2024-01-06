@@ -1,4 +1,4 @@
-package com.example.repositorypatternsample
+package com.example.repositorypatternsample.model.samplemodel.datasource
 
 class SampleDataSource2 : ISampleDataSource {
     private var privateDataNum = 3

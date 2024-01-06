@@ -1,6 +1,7 @@
-package com.example.repositorypatternsample
+package com.example.repositorypatternsample.model.samplemodel.repository
 
-import com.example.repositorypatternsample.sampledata.SampleModel
+import com.example.repositorypatternsample.model.samplemodel.datasource.ISampleDataSource
+import com.example.repositorypatternsample.model.samplemodel.SampleModel
 
 class SampleRepository(private val sampleDataSource: ISampleDataSource) : ISampleRepository {
 

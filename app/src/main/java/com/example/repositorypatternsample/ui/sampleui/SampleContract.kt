@@ -1,6 +1,6 @@
-package com.example.repositorypatternsample
+package com.example.repositorypatternsample.ui.sampleui
 
-import com.example.repositorypatternsample.sampledata.SampleModel
+import com.example.repositorypatternsample.model.samplemodel.SampleModel
 
 interface SampleContract {
 

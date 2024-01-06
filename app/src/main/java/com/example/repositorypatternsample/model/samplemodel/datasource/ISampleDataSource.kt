@@ -1,4 +1,4 @@
-package com.example.repositorypatternsample
+package com.example.repositorypatternsample.model.samplemodel.datasource
 
 interface ISampleDataSource {
     fun getIntData(): Int
