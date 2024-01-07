@@ -9,7 +9,7 @@ class SampleRepository(private val sampleDataSource: ISampleDataSource) : ISampl
     private val INT_CACHE_KEY = "int_cache_key"
     private val STRING_CACHE_KEY = "string_cache_key"
 
-    override fun featchData(): SampleModel = if(cache.containsKey(INT_CACHE_KEY)){
+    override fun featchData(): SampleModel = if (cache.containsKey(INT_CACHE_KEY)) {
         SampleModel(cache.getValue(INT_CACHE_KEY).toInt(), cache.getValue(STRING_CACHE_KEY))
     } else {
         SampleModel(sampleDataSource.getIntData(), sampleDataSource.getStringData())
